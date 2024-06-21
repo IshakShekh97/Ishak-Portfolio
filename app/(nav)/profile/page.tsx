@@ -66,16 +66,12 @@ const Profile = () => {
           <span className="underline"> React (Next.js) and Tailwind </span>.
         </h1>
         {/* buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-base sm:text-lg font-medium  ">
-          {/* <Link
-            href="/contact"
-            className="px-7 py-3 flex items-center gap-2 rounded-full "
-          > */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-base sm:text-lg font-medium  ">
           <MagicButton
             title={copied ? "Email is Copied!" : "Open Mail"}
             icon={<ArrowUpRight />}
             position="right"
-            parentClass="sm:mt-0 mt-0"
+            parentClass="!sm:mt-0 !mt-0"
             handleClick={handleCopy}
           />
           {/* </Link> */}
