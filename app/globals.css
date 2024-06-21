@@ -127,3 +127,7 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+::selection {
+  @apply text-purple bg-black  dark:text-violet-500 dark:bg-slate-950;
+}
