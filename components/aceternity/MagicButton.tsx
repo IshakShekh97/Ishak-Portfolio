@@ -8,9 +8,11 @@ const MagicButton = ({
   otherClasses,
   content,
   parentClass,
+  img,
 }: {
   title?: string;
   icon: ReactNode;
+  img?: string;
   position: "left" | "right";
   handleClick?: () => void;
   otherClasses?: string;
@@ -28,6 +30,7 @@ const MagicButton = ({
           className={`inline-flex gap-5 h-full w-full cursor-pointer items-center justify-center rounded-lg dark:bg-neutral-950 bg-purple px-7 text-base font-bold text-black dark:text-white  backdrop-blur-3xl ${otherClasses}`}
         >
           {position === "left" && icon}
+
           {title && title}
           {content && content}
           {position === "right" && icon}

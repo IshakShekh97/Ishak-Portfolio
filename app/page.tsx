@@ -1,5 +1,6 @@
-import Grid from "@/components/Grid";
-import Testimonials from "@/components/Testimonials";
+import Grid from "@/components/shared/Grid";
+import Skills from "@/components/shared/Skills";
+import Testimonials from "@/components/shared/Testimonials";
 import { TextGenerateEffect } from "@/components/aceternity/TextGenerateEffect";
 import { BriefcaseBusiness } from "lucide-react";
 import Link from "next/link";
@@ -39,6 +40,7 @@ const page = () => {
 
       <div>
         <Grid />
+        <Skills />
         <Testimonials />
       </div>
     </div>

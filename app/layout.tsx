@@ -6,6 +6,7 @@ import { ThemeSwitcher } from "@/components/shared/ThemeSwitcher";
 import { Spotlight } from "@/components/aceternity/Spotlight";
 import { FloatingNav } from "@/components/aceternity/FloatingNavbar";
 import { navItems } from "@/data";
+import Footer from "@/components/shared/Footer";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -37,6 +38,18 @@ export default function RootLayout({
                 fill="purple"
                 className="-top-32 -left-20 fixed z-[1]"
               />
+              <Spotlight
+                fill="purple"
+                className="-top-32 left-[80%] fixed z-[1] "
+              />
+              <Spotlight
+                fill="blue"
+                className="-top-72 left-[25%] fixed z-[1] "
+              />
+              <Spotlight
+                fill="white"
+                className="-top-32 left-full fixed z-[1] "
+              />
             </>
 
             <span className="h-screen w-full dark:bg-black bg-white-100  dark:bg-grid-white/[0.02] bg-grid-black/[0.1]  flex items-center justify-center fixed top-0 left-0 z-0">
@@ -45,8 +58,8 @@ export default function RootLayout({
 
             <div className=" relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 pb-20 pt-36 z-50">
               <FloatingNav navItems={navItems} />
-
               {children}
+              <Footer />
             </div>
           </div>
 

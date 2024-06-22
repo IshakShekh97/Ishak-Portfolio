@@ -27,7 +27,7 @@ const Services = () => {
           <Button
             key={card.id}
             borderRadius="1.75rem"
-            duration={Math.floor(Math.random() * 3000 + 3000)}
+            duration={Math.floor(Math.random() * 6000 + 6000)}
             className="flex-1 dark:text-white text-black border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2 ">

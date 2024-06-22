@@ -143,65 +143,88 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
+export const skills = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Next JS",
+    img: "/next.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "React JS",
+    img: "/re.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Tailwind CSS",
+    img: "/tail.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Java Script",
+    img: "/js.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Type Script",
+    img: "/ts.svg",
+  },
+  {
+    id: 6,
+    name: "GSAP",
+    img: "/gsap.svg",
+  },
+  {
+    id: 7,
+    name: "Framer Motion",
+    img: "/fm.svg",
+  },
+  {
+    id: 8,
+    name: "Shadcn UI",
+    img: "/shadcn.svg",
+    class: "bg-slate-700 rounded",
+  },
+  {
+    id: 9,
+    name: "Vite JS",
+    img: "/vite.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer",
+    desc: "Developing and maintaining robust web-based platform utilizing Next.js(React.js), TailwindCSS elevating the user experience through interactive features and improved usability.  ",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Responsive Web Development",
+    desc: "Ensure websites are optimized for various devices, screen sizes, and orientations to provide a seamless experience across different platforms.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Developer",
+    desc: "A Newbie Freelancer who is eager to Work with you to develop your project and grow in the field of web development.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Web Performance Optimization",
+    desc: "Analyze and optimize website performance using tools like Lighthouse , PageSpeed Insights, and Google Search Console .",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "Learning Backend",
+    desc: "Drove personal growth and skill expansion by learning backend development principles and technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

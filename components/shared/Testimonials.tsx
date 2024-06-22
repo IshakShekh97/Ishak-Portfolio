@@ -1,16 +1,14 @@
 import { testimonials } from "@/data";
-import { InfiniteMovingCards } from "./aceternity/InfiniteMovingCards";
+import { InfiniteMovingCards } from "../aceternity/InfiniteMovingCards";
+import { TextGenerateEffect } from "../aceternity/TextGenerateEffect";
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className="py-20">
-      <h1 className="heading">
-        Kind Word From{" "}
-        <span className="dark:text-purple text-violet-500">
-          Satisfied Clients
-        </span>
-      </h1>
-
+    <div id="testimonials" className="py-20 ">
+      <TextGenerateEffect
+        className="heading"
+        words="Kind Words  From Satisfied Clients"
+      />
       <div className="flex flex-col items-center mt-10">
         <InfiniteMovingCards
           items={testimonials}

@@ -1,10 +1,10 @@
 import { gridItems } from "@/data";
-import { BentoGrid, BentoGridItem } from "./aceternity/BentoGrid";
+import { BentoGrid, BentoGridItem } from "../aceternity/BentoGrid";
 
 const Grid = () => {
   return (
     <section id="about">
-      <BentoGrid className="w-full py-20">
+      <BentoGrid className="lg:max-w-[80%] py-20">
         {gridItems.map((item, i) => (
           <BentoGridItem
             id={item.id}
