@@ -234,13 +234,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/IshakShekh97",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    href: "https://www.linkedin.com/in/ishak-shekh-12bb94247/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/insta.svg",
+    href: "https://www.instagram.com/ishak_shekh_/",
   },
 ];
