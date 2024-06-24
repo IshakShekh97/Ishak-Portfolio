@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 2,
     title: "Shop-Scrape - A Price Tracker",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A Amazon Product Scraping Site, Which notifies user when product price is changed",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/fm.svg"],
     link: "https://shop-scrape.vercel.app/",
@@ -93,7 +93,7 @@ export const projects = [
   {
     id: 3,
     title: "JurnL - A Journalling App with Integrated Mood Tracker ",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "A Daily Journal Tracker , Which Assigns Mood Based on data With AI",
     img: "/p3.png",
     iconLists: ["/t3.svg", "/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://jurnl-ai.vercel.app/",
@@ -102,11 +102,29 @@ export const projects = [
   {
     id: 4,
     title: "Portfolio - First PortFolio Ever Created",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "The First Portfolio Created by me With Next.js , Tailwind , Framer Motion",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://portfolio-ishak-first.vercel.app/",
     shortName: "Portfolio",
+  },
+  {
+    id: 5,
+    title: "Sushi Boy",
+    des: "A simple responsive sushi Selling Website with HTML , CSS , JS ",
+    img: "/p5.png",
+    iconLists: ["/tail.svg", "/js.svg"],
+    link: "https://sushi-boy.vercel.app/",
+    shortName: "Sushi_Boy",
+  },
+  {
+    id: 6,
+    title: "Advice App",
+    des: "Elegant Designed Site which gives Random Advices",
+    img: "/p6.png",
+    iconLists: ["/tail.svg", "/js.svg"],
+    link: "https://quotes-react-app-sigma.vercel.app/",
+    shortName: "Advice_App",
   },
 ];
 
